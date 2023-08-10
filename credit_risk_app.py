@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-#from sklearn.tree import DecisionTreeClassifier
-#import joblib
+from sklearn.tree import DecisionTreeClassifier
+import joblib
 
 # Load the trained model
 model = joblib.load('credit_card_risk_model.joblib')
