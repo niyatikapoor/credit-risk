@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-from sklearn.tree import DecisionTreeClassifier
 import joblib
 
 # Load the trained model
